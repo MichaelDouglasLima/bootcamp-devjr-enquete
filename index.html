@@ -4,28 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BootCamp DevJr - Sistema de Enquete</title>
+
+    <style>
+        body {
+            background-color: #CCCCCC;
+        }
+
+        .container-1 {
+            background-color: #210D25;
+            margin: auto;
+            width: 1200px;
+        }
+
+        .container-2 {
+            background-color: #4D1856;
+            margin: auto;
+            width: 95%;
+        }
+
+        .container-3 {
+            background-color: #63ADFA;
+            margin: auto;
+            width: 30%;
+            margin-bottom: 20px;      
+        }
+
+        .header {
+            padding: 20px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-around; 
+            text-align: center;     
+        }
+
+    </style>
+
 </head>
 <body>
-    <div>
-        <div>
+    <div class="container-1">
+        <div class="header">
             Primeira Linha
-        </div>
 
-        <div>
-            Segunda Linha
-        </div>
+            <div class="container-2">
+                Segunda Linha
 
-        <div>
-            <div>
-                Coluna 1
-            </div>
+                <div class="flex-container">
+                    <div class="container-3">
+                        Coluna 1
+                    </div>
+        
+                    <div class="container-3">
+                        Coluna 2
+                    </div>
+        
+                    <div class="container-3">
+                        Coluna 3
+                    </div>
+                </div>
 
-            <div>
-                Coluna 2
-            </div>
-
-            <div>
-                Coluna 3
             </div>
         </div>
     </div>
