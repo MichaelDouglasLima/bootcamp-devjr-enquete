@@ -8,29 +8,64 @@
     <style>
         body {
             background-color: #CCCCCC;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 24px;
+            color: #FFFFFF;
         }
 
         .container-1 {
             background-color: #210D25;
             margin: auto;
             width: 1200px;
+            box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            overflow: hidden;
         }
 
         .container-2 {
             background-color: #4D1856;
             margin: auto;
             width: 95%;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            overflow: hidden; 
         }
 
         .container-3 {
             background-color: #63ADFA;
             margin: auto;
             width: 30%;
-            margin-bottom: 20px;      
+            margin-bottom: 20px;
+            border-radius: 8px;
+            overflow: hidden;     
         }
 
         .header {
-            padding: 20px;
+            padding: 60px;
+        }
+
+        .header-title {
+            color: #FECD23;
+            text-align: center;
+            font-size: 50px;
+            font-weight: 700;
+            margin-bottom: 50px;
+        }
+
+        .header-subtitle-1 {
+            text-align: center;
+        }
+
+        .header-subtitle-2 {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        .header-dev {
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 20px;
         }
 
         .flex-container {
@@ -45,26 +80,45 @@
 <body>
     <div class="container-1">
         <div class="header">
-            Primeira Linha
-
-            <div class="container-2">
-                Segunda Linha
-
-                <div class="flex-container">
-                    <div class="container-3">
-                        Coluna 1
-                    </div>
-        
-                    <div class="container-3">
-                        Coluna 2
-                    </div>
-        
-                    <div class="container-3">
-                        Coluna 3
-                    </div>
-                </div>
-
+            <div class="header-title">
+                GAMES LOVERS ENQUETE
             </div>
+
+            <div class="header-subtitle-1">
+                Estamos escolhendo nesta enquete os melhores estilos de jogos
+                entre os afixionados por videos games. Participe da nossa enquete
+                e escolha entre os três finalistas!<br>
+                <br>
+                A sua escolha é muito importante para nós.<br>
+                <br>
+                No final da enquete iremos sortear um <strong>brinde</strong> entre os participantes.
+            </div>
+
+        </div>
+        
+        <div class="container-2">
+            <div class="header-subtitle-2">
+                Digite os seus dados e escolha entre os três finalistas!
+            </div>
+
+            <div class="flex-container">
+                <div class="container-3">
+                    Esportes
+                </div>
+    
+                <div class="container-3">
+                    Simulação
+                </div>
+    
+                <div class="container-3">
+                    Estratégia
+                </div>
+            </div>
+
+        </div>
+
+        <div class="header-dev">
+            @Desenvolvido por GameTechLover
         </div>
     </div>
 </body>
