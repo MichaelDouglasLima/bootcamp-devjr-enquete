@@ -13,8 +13,41 @@
             color: #FFFFFF;
         }
 
+        input {
+            display: flex;
+            color: #757E90;
+            height: 22px;
+            width: 70%;
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 5px;
+            border: 0;
+            margin: auto;
+            margin-bottom: 40px;
+        }
+
+        input:focus {
+            outline: none;
+            box-shadow: 0 0 10px #b14bc5;
+        }
+
+        button {
+            margin-bottom: 20px;
+            border-radius: 4px;
+            border: none;
+            background-color: #1F0C23;
+            padding: 20px 40px;
+            font-size: 25px;
+            color: #FFFFFF;
+        }
+
+        button:hover {
+            background-color: #d45cec;
+        }
+
         .container-1 {
-            background-color: #210D25;
+            /* background-color: #210D25;*/
+            background-image: linear-gradient(#220E26, #641F70);
             margin: auto;
             width: 1200px;
             border-radius: 8px;
@@ -22,7 +55,8 @@
         }
 
         .container-2 {
-            background-color: #4D1856;
+            /* background-color: #4D1856; */
+            background-image: linear-gradient(#5D1D68, #240E28);
             margin: auto;
             width: 95%;
             margin-bottom: 20px;
@@ -31,16 +65,19 @@
         }
 
         .container-3 {
-            background-color: #2637DB;
-            margin: auto;
+            /* background-color: #2637DB; */
+            background-image: linear-gradient(#2637DA,#342988);
             width: 25%;
+            margin: auto;
+            margin-top: 25px;
             margin-bottom: 20px;
             border-radius: 8px;
             overflow: hidden;     
         }
 
         .container-4 {
-            background-color: #6BBEFC;
+            /* background-color: #6BBEFC; */
+            background-image: linear-gradient(#3D5EEF,#6BBDFC);
             margin: 10px;
             margin-top: 15px;
             margin-bottom: 20px;
@@ -63,8 +100,8 @@
         }
 
         .header-subtitle-2 {
-            margin-top: 20px;
-            margin-bottom: 20px;
+            margin-top: 30px;
+            margin-bottom: 60px;
             text-align: center;
             font-size: 40px;
         }
@@ -115,6 +152,11 @@
                 Digite os seus dados e escolha entre os três finalistas!
             </div>
 
+            <div>
+                <input type="text" placeholder="Digite seu nome">
+                <input type="email"placeholder="Digite seu email">
+            </div>
+
             <div class="flex-container">
                 <div class="container-3">
                     <div class="container-4">
@@ -125,6 +167,8 @@
                         <div>
                             <object data="sports_soccer_white.svg" type="image/svg+xml"></object>
                         </div>
+
+                        <button>Votar</button>
                     </div>
                     
                 </div>
@@ -138,6 +182,8 @@
                         <div>
                             <object data="local_airport_white.svg" type="image/svg+xml"></object>
                         </div>
+
+                        <button>Votar</button>
                     </div>
                 </div>
     
@@ -150,6 +196,8 @@
                         <div>
                             <object data="psychology_white.svg" type="image/svg+xml"></object>
                         </div>
+
+                        <button>Votar</button>
                     </div>
                     
                 </div>
